@@ -3,15 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="refresh" content="0;url=https://lin.ee/vw2oMOD">
-    <title>LINEへ移動中...</title>
-    <script>
-        // JavaScriptでも転送を実行（より確実にするため）
-        window.location.replace("https://lin.ee/vw2oMOD");
-    </script>
+    <title>プレゼント受け取りページ</title>
+
+    <style>
+        body {
+            font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+            background-color: #f4f7f6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+            padding: 20px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            width: 90%;
+            max-width: 400px;
+        }
+        h1 {
+            font-size: 18px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .line-button {
+            display: inline-block;
+            background-color: #06C755;
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 20px;
+            padding: 15px 30px;
+            border-radius: 50px;
+            transition: transform 0.2s, box-shadow 0.2s;
+            box-shadow: 0 4px 10px rgba(6, 199, 85, 0.3);
+            cursor: pointer;
+        }
+        .line-button:active {
+            transform: scale(0.98);
+        }
+        .notice {
+            font-size: 14px;
+            color: #e63946; /* 注意を引くために少し赤っぽくしています */
+            font-weight: bold;
+            margin-top: 15px;
+            line-height: 1.6;
+        }
+        .sub-notice {
+            font-size: 12px;
+            color: #888;
+            margin-top: 10px;
+        }
+    </style>
 </head>
 <body>
-    <p>LINE公式アカウントへ移動しています。<br>
-    自動的に切り替わらない場合は<a href="https://lin.ee/vw2oMOD">こちら</a>をクリックしてください。</p>
+
+<div class="container">
+    <h1>公式LINEを追加して<br>プレゼントを受け取ってください</h1>
+    
+    <a href="https://lin.ee/lin.ee/vw2oMOD" class="line-button" onclick="ttq.track('CompleteRegistration')">
+        LINE友だち追加する
+    </a>
+
+    <p class="notice">
+        【重要】ボタンが反応しない場合は、<br>
+        ボタンを「長押し」して開いてください。
+    </p>
+
+    <p class="sub-notice">※この広告は一度のみ表示されます。</p>
+</div>
+
 </body>
 </html>
